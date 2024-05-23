@@ -1,0 +1,14 @@
+.message-input {
+    width: 500px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.message-input-send {
+    margin-left: 2px;
+    width: 100px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}

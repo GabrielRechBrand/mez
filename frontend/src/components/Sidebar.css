@@ -5,7 +5,7 @@
     width: 15vw;
     transition: left 0.3s ease-in-out;
     background-color: lightgray;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 .sidebar-toggle {
     position: absolute;
@@ -24,6 +24,9 @@
 }
 .sidebar.open {
     left: 0;
+}
+.sidebar.open button.sidebar-toggle {
+    pointer-events: auto;
 }
 .content.open {
     left: 15vw;

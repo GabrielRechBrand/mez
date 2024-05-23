@@ -1,5 +1,10 @@
 body {
-    font-family: "Crimson Text", serif;
-    font-weight: 400;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
     font-style: normal;
+}
+
+.App {
+    display: flex;
 }
