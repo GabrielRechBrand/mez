@@ -1,0 +1,30 @@
+.chat-board {
+    width: 70%;
+    height: 95%;
+    overflow-y: auto;
+}
+
+.scroll-to-bottom-btn {
+    position: fixed;
+    bottom: 100px;
+    color: lightgray;
+    border: none;
+    border-radius: 20%;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.message {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
